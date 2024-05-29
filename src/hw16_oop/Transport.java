@@ -20,6 +20,7 @@ public abstract class Transport implements Transportable {
         System.out.println("Проверяем двигатель");
     }
 
+    @Override
     public void repair()  {
         System.out.println("Обслуживаем " + getModelName());
         for (int i = 0; i < getWheelsCount(); i++) {

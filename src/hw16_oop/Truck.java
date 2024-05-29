@@ -26,6 +26,7 @@ public class Truck extends Transport {
         System.out.println("Проверяем прицеп");
     }
 
+    @Override
     public void repair() {
         super.repair();
         checkEngine();
